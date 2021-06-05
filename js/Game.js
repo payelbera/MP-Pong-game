@@ -66,8 +66,8 @@ class Game {
     ballPosition.on("value", function(data){
       position = data.val();
     //console.log(position.x);
-    //pong.x = position.x;
-    //pong.y = position.y;
+    pong.x = position.x;
+    pong.y = position.y;
     
   });
   
